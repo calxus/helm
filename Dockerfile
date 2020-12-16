@@ -9,6 +9,6 @@ RUN apk add --no-cache curl && \
     apk del --purge curl && \
     tar -zxvf /tmp/helm.tar.gz && \
     mv /linux-amd64/helm /usr/bin && \
-    rm -rf /linux-amd-64
+    rm -rf /linux-amd64
 
 ENTRYPOINT ["helm"]
